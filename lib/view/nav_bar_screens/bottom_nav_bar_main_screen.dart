@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
     HomeScreen(),
     WidgetScreen(),
     UiKit(),
-    ProfileScreen(),
+    const ProfileScreen(),
   ];
 
   @override
@@ -55,9 +55,9 @@ class _HomePageState extends State<HomePage> {
               backgroundColor: Colors.black.withOpacity(0.7),
               color: Colors.white,
               activeColor: Colors.white,
-              duration: Duration(milliseconds: 400),
+              duration: const Duration(milliseconds: 400),
               gap: 8,
-              padding: EdgeInsets.only(right: 10, left: 10, top: 15, bottom: 15),
+              padding: const EdgeInsets.only(right: 10, left: 10, top: 15, bottom: 15),
               hoverColor: Colors.black12,
               tabBackgroundColor: HexColor('#022659'),
               tabBorderRadius: 10,
@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
               onTabChange: (index) {
                 pageController.animateToPage(
                   index,
-                  duration: Duration(milliseconds: 5),
+                  duration: const Duration(milliseconds: 5),
                   curve: Curves.easeInOutCirc,
                 );
               },
