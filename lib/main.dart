@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutterunwrapped/view/splash_and_on_boarding_screen/splash_screen.dart';
 import 'package:get/get.dart';
+import 'package:hexcolor/hexcolor.dart';
 
 Shader? shaderProgram;
 
@@ -28,34 +29,27 @@ Future<void> _loadShader() async {
   }
 }
 
-// Future<void> _loadShader() async {
-//   return FragmentProgram.fromAsset('assets/shaders/shader.frag').then(
-//           (FragmentProgram prgm) {
-//         EverythingView.shader = prgm.fragmentShader();
-//       }, onError: (Object error, StackTrace stackTrace) {
-//     FlutterError.reportError(
-//         FlutterErrorDetails(exception: error, stack: stackTrace));
-//   });
-// }
-
 
 class StartApp extends StatelessWidget {
   const StartApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
-      // useInheritedMediaQuery: true,
-      // locale: DevicePreview.locale(context),
-      // builder: DevicePreview.appBuilder,
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF011f4b), // Seed color
+          brightness: Brightness.dark,
+          background: HexColor("#011f4b").withOpacity(0.4)
+        ),
+        useMaterial3: true, // Enable Material 3
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color(0xFF011f4b),
+          iconTheme: IconThemeData(color: Colors.white),
+          titleTextStyle: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+        ),
+      ),
       home: SplashScreen(),
-      // home: Test(),
-      // theme: ThemeData(
-      //     textTheme: const TextTheme(
-      //       displayLarge: TextStyle(
-      //           fontFamily: 'Poppins',fontSize: 20.0, fontWeight: FontWeight.w600),
-      //     )
-      // ),
     );
   }
 }

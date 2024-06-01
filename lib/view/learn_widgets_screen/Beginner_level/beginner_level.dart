@@ -17,7 +17,7 @@ class _BeginnerLevelWidgetState extends State<BeginnerLevelWidget> {
   Widget build(BuildContext context) {
     return CustomMovingBackground(
       child: Scaffold(
-        backgroundColor: HexColor('#011f4b').withOpacity(0),
+        backgroundColor: HexColor('#011f4b').withOpacity(0.6),
         appBar: AppBar(
           title: const FittedBox(
             fit: BoxFit.contain,

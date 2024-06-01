@@ -9,7 +9,7 @@ Widget CustomMovingBackground({
   return MovingBackground(
     animationType: AnimationType.rain,
     // duration: const Duration(seconds: 5),
-    backgroundColor: HexColor('#011f4b').withOpacity(0.3),
+    backgroundColor: HexColor('#011f4b').withOpacity(0.2),
     // backgroundColor: Colors.yellow.withOpacity(1),
     // duration: Duration(seconds: 3),
     circles: [

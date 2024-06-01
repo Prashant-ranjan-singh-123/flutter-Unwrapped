@@ -23,8 +23,7 @@ class _WidgetScreenState extends State<WidgetScreen> {
   }
 
   void advance_button(){
-    // ErrorDisplay().showUnderConstructionDialog();
-    Get.to(const TabSwitcherWidgetExplain());
+    ErrorDisplay().showUnderConstructionDialog();
   }
 
   List<bool> lightOfContainer = [false, false];

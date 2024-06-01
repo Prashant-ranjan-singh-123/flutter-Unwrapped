@@ -205,14 +205,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     height: 50,
                   ),
                   Center(
-                    child: Text(
+                    child: const Text(
                       "General Information",
                       style: TextStyle(
                           fontSize: 19,
                           height: 1.38,
                           fontWeight: FontWeight.w700,
                           fontFamily: 'Roboto',
-                          color: Theme.of(context).colorScheme.onPrimary),
+                          color: Colors.white),
                     )
                         .animate()
                         .scale(duration: 400.ms, curve: Curves.decelerate),
@@ -245,14 +245,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
 
                   Center(
-                    child: Text(
+                    child: const Text(
                       "Support",
                       style: TextStyle(
                           fontSize: 19,
                           height: 1.38,
                           fontWeight: FontWeight.w700,
                           fontFamily: 'Roboto',
-                          color: Theme.of(context).colorScheme.onPrimary),
+                          color: Colors.white),
                     )
                         .animate()
                         .scale(duration: 400.ms, curve: Curves.decelerate),
