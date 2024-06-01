@@ -7,6 +7,7 @@ import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../../test.dart';
+import '../learn_widgets_screen/widget_expand/tabs_switcher.dart';
 import 'check_first_time.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -26,6 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     Future.delayed(const Duration(milliseconds: 2000), (){
       Get.off(const CheckFirstTime());
+      // Get.off(const TabSwitcherWidgetExplain());
     });
     return Test(
       child: Scaffold(

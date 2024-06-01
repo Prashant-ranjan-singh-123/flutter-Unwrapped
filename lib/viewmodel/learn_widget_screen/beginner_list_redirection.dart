@@ -26,6 +26,7 @@ class WidgetCollection{
   ];
   List<Function> Screens_of_simple_widget =[
     () => ErrorDisplay().showUnderConstructionDialog(),
+    // () => ErrorDisplay().showUnderConstructionDialog(),
     () => ErrorDisplay().showUnderConstructionDialog(),
     () => ErrorDisplay().showUnderConstructionDialog(),
     () => ErrorDisplay().showUnderConstructionDialog(),

@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutterunwrapped/view/learn_widgets_screen/widget_expand/tabs_switcher.dart';
 import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';
 
@@ -22,7 +23,8 @@ class _WidgetScreenState extends State<WidgetScreen> {
   }
 
   void advance_button(){
-    ErrorDisplay().showUnderConstructionDialog();
+    // ErrorDisplay().showUnderConstructionDialog();
+    Get.to(const TabSwitcherWidgetExplain());
   }
 
   List<bool> lightOfContainer = [false, false];
