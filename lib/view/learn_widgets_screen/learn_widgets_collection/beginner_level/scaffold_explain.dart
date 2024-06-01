@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 class ExplainScaffold extends StatelessWidget {
   const ExplainScaffold({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         // Scaffold implements the basic material design visual layout structure.
 
@@ -17,7 +18,7 @@ class ExplainScaffold extends StatelessWidget {
           title: const Text('Home Page'),
           centerTitle: true,
           // The elevation of the app bar.
-          elevation: 4.0,
+          elevation: 2.0,
 
           // Whether the app bar's elevation animates as the app scrolls.
 

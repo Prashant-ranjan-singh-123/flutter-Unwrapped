@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart'
     show kTransparentImage;
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 /// A simple stateful widget that demonstrates different ways to use the
 /// [Image] widget in Flutter, including asset images, network images,
 /// images with fade-in effects, and cached network images.
@@ -18,8 +20,7 @@ class _ImageExplainState extends State<ImageExplain> {
   @override
   Widget build(BuildContext context) {
     // bool hasConnection;
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Image Example'),
@@ -27,7 +28,7 @@ class _ImageExplainState extends State<ImageExplain> {
         ),
         // Scaffold provides a structure for the visual interface, including
         // an optional app bar, drawer, and a body.
-
+      
         /// The body of the Scaffold is a [ListView] that contains multiple
         /// [ListTile] and [Image] widgets demonstrating different image types.
         body: ListView(
@@ -36,7 +37,7 @@ class _ImageExplainState extends State<ImageExplain> {
             const ListTile(title: Text('Image from Asset:')),
             Image.asset('assets/images/logo_no_bg.png'),
             const Divider(),
-
+      
             // Displaying an image from a network URL.
             const ListTile(title: Text('Image from Network:')),
             Image.network(
@@ -45,7 +46,7 @@ class _ImageExplainState extends State<ImageExplain> {
               height: 300,
             ),
             const Divider(),
-
+      
             // Displaying an image with a fade-in effect using a network URL.
             const ListTile(title: Text('Fade In Image:')),
             Card(
@@ -57,7 +58,7 @@ class _ImageExplainState extends State<ImageExplain> {
               ),
             ),
             const Divider(),
-
+      
             // Displaying a cached network image with a progress indicator.
             const ListTile(title: Text('Cached Network Image:')),
             CachedNetworkImage(
@@ -68,9 +69,6 @@ class _ImageExplainState extends State<ImageExplain> {
                           value: downloadProgress.progress)),
               errorWidget: (context, url, error) => const Icon(Icons.error),
             ),
-            const SizedBox(
-              height: 40,
-            )
           ],
         ),
       ),

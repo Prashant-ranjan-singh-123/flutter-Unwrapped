@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 /// A simple stateless widget that displays a row of icons with
 /// evenly spaced main axis alignment.
 ///
@@ -11,8 +13,7 @@ class IconExplain extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Icons Example'),

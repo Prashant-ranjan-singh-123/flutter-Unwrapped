@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
 
 class BottomNavigationBarExplain extends StatefulWidget {
   const BottomNavigationBarExplain({super.key});
@@ -19,62 +20,64 @@ class _BottomNavigationBarExplainState extends State<BottomNavigationBarExplain>
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-          title: const Text('BottomNavigationBar'),
-          centerTitle: true,
-          // backgroundColor: Colors.green
-      ),
-      body: Center(
-        child: _widgetOptions.elementAt(_selectedIndex),
-      ),
-      bottomNavigationBar: BottomAppBar(
-        shape: const CircularNotchedRectangle(),
-        notchMargin: 5.0,
-        clipBehavior: Clip.antiAlias,
-        child: SizedBox(
-          height: kBottomNavigationBarHeight,
-          child: Row(
-            mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[
-              IconButton(
-                icon: const Icon(Icons.home),
-                onPressed: () {
-                  setState(() {
-                    _selectedIndex=0;
-                  });
-                },
-              ),
-              IconButton(
-                icon: const Icon(Icons.search),
-                onPressed: () {
-                  setState(() {
-                    _selectedIndex=1;
-                  });
-                },
-              ),
-              IconButton(
-                icon: const Icon(Icons.favorite_border_outlined),
-                onPressed: () {
-                  setState(() {
-                    _selectedIndex=2;
-                  });
-                },
-              ),
-              IconButton(
-                icon: const Icon(Icons.account_circle_outlined),
-                onPressed: () {
-                  setState(() {
-                    _selectedIndex=3;
-                  });
-                },
-              )
-            ],
+    return CustomPhoneLayout(
+      child: Scaffold(
+        appBar: AppBar(
+            title: const Text('BottomNavigationBar'),
+            centerTitle: true,
+            // backgroundColor: Colors.green
+        ),
+        body: Center(
+          child: _widgetOptions.elementAt(_selectedIndex),
+        ),
+        bottomNavigationBar: BottomAppBar(
+          shape: const CircularNotchedRectangle(),
+          notchMargin: 5.0,
+          clipBehavior: Clip.antiAlias,
+          child: SizedBox(
+            height: kBottomNavigationBarHeight,
+            child: Row(
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: <Widget>[
+                IconButton(
+                  icon: const Icon(Icons.home),
+                  onPressed: () {
+                    setState(() {
+                      _selectedIndex=0;
+                    });
+                  },
+                ),
+                IconButton(
+                  icon: const Icon(Icons.search),
+                  onPressed: () {
+                    setState(() {
+                      _selectedIndex=1;
+                    });
+                  },
+                ),
+                IconButton(
+                  icon: const Icon(Icons.favorite_border_outlined),
+                  onPressed: () {
+                    setState(() {
+                      _selectedIndex=2;
+                    });
+                  },
+                ),
+                IconButton(
+                  icon: const Icon(Icons.account_circle_outlined),
+                  onPressed: () {
+                    setState(() {
+                      _selectedIndex=3;
+                    });
+                  },
+                )
+              ],
+            ),
           ),
         ),
-      ),
 
+      ),
     );
   }
 }

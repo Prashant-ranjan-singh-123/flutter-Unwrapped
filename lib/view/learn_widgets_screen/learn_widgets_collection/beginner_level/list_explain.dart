@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 /// A simple stateless widget that demonstrates the use of [ListView] and [ListTile]
 /// to create a list of items with leading icons, titles, subtitles, and trailing icons.
 class List_Explain extends StatelessWidget {
@@ -8,8 +10,7 @@ class List_Explain extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(0.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         // Scaffold provides a structure for the visual interface, including
         // an optional app bar, drawer, and a body.

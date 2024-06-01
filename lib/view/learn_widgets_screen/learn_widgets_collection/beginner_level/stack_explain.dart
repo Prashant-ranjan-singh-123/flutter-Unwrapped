@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 class StackExplain extends StatelessWidget {
   const StackExplain({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
@@ -27,22 +28,22 @@ class StackExplain extends StatelessWidget {
                 // Max Size
                 Center(
                   child: Container(
-                    width: 300,
-                    height: 300,
+                    width: 200,
+                    height: 200,
                     color: Colors.yellow,
                   ),
                 ),
                 Center(
                   child: Container(
-                    width: 200,
-                    height: 200,
+                    width: 130,
+                    height: 130,
                     color: Colors.blue,
                   ),
                 ),
                 Center(
                   child: Container(
-                    width: 100,
-                    height: 100,
+                    width: 60,
+                    height: 60,
                     color: Colors.green,
                   ),
                 ),

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 class MaterialAppExplain extends StatelessWidget {
   const MaterialAppExplain({super.key});
 
@@ -22,8 +24,10 @@ class MaterialAppExplain extends StatelessWidget {
         fontFamily: 'Roboto', // Customizing the font family
       ),
 
+      debugShowCheckedModeBanner: false,
+
       // The widget that represents the home page of the application.
-      home: MyHomePage(),
+      home: CustomPhoneLayout(child: MyHomePage()),
     );
   }
 }
@@ -31,22 +35,19 @@ class MaterialAppExplain extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
-      child: Scaffold(
-        backgroundColor: Colors.transparent.withOpacity(0.5),
-        // The app bar displayed at the top of the screen.
-        appBar: AppBar(
-          title: const Text('Home Page', style: TextStyle(color: Colors.white),), // The title displayed in the app bar.
-          centerTitle: true,
-          backgroundColor: HexColor('#022659'),
-          iconTheme: const IconThemeData(color: Colors.white),
-        ),
-
-        // The main content area of the screen.
-        body: const Center(
-          child: Text('Welcome to my awesome app!', style: TextStyle(color: Colors.white),), // The main content of the page.
-        ),
+    return Scaffold(
+      backgroundColor: Colors.transparent.withOpacity(0.5),
+      // The app bar displayed at the top of the screen.
+      appBar: AppBar(
+        title: const Text('Home Page', style: TextStyle(color: Colors.white),), // The title displayed in the app bar.
+        centerTitle: true,
+        backgroundColor: HexColor('#022659'),
+        iconTheme: const IconThemeData(color: Colors.white),
+      ),
+    
+      // The main content area of the screen.
+      body: const Center(
+        child: Text('Welcome to my awesome app!', style: TextStyle(color: Colors.white),), // The main content of the page.
       ),
     );
   }

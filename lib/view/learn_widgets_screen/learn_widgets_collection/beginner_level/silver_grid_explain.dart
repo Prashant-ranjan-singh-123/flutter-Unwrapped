@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
 
 /// A widget that demonstrates the usage of SliverGrid in Flutter.
 ///
@@ -14,56 +15,59 @@ class SliverGridExplain extends StatelessWidget {
     // Create a Random object to generate random colors
     final Random random = Random();
 
-    return Scaffold(
-      appBar: AppBar(
-        // App bar with a title for the grid view demo
-        title: const Text('SliverGrid Demo'),
-      ),
-      body: CustomScrollView(
-        slivers: [
-          // A grid with a maximum cross-axis extent.
-          //
-          // The SliverGrid uses a SliverGridDelegateWithMaxCrossAxisExtent to
-          // control the layout of the grid. Each child in the grid is created
-          // using the SliverChildBuilderDelegate.
-          SliverGrid(
-            // Grid delegate with max cross-axis extent of 150 pixels
-            gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-              maxCrossAxisExtent: 150.0, // Maximum width of each grid item
-              mainAxisSpacing: 10.0, // Spacing between rows
-              crossAxisSpacing: 10.0, // Spacing between columns
-              childAspectRatio: 1.0, // Aspect ratio of each grid item
-            ),
-            // Delegate to build each grid item
-            delegate: SliverChildBuilderDelegate(
-                  (BuildContext context, int index) {
-                // Generate a random color
-                final Color randomColor = Color.fromRGBO(
-                  random.nextInt(256),
-                  random.nextInt(256),
-                  random.nextInt(256),
-                  1,
-                );
+    return CustomPhoneLayout(
+      child: Scaffold(
+        appBar: AppBar(
+          // App bar with a title for the grid view demo
+          title: const Text('SliverGrid Demo'),
+          centerTitle: true,
+        ),
+        body: CustomScrollView(
+          slivers: [
+            // A grid with a maximum cross-axis extent.
+            //
+            // The SliverGrid uses a SliverGridDelegateWithMaxCrossAxisExtent to
+            // control the layout of the grid. Each child in the grid is created
+            // using the SliverChildBuilderDelegate.
+            SliverGrid(
+              // Grid delegate with max cross-axis extent of 150 pixels
+              gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                maxCrossAxisExtent: 150.0, // Maximum width of each grid item
+                mainAxisSpacing: 10.0, // Spacing between rows
+                crossAxisSpacing: 10.0, // Spacing between columns
+                childAspectRatio: 1.0, // Aspect ratio of each grid item
+              ),
+              // Delegate to build each grid item
+              delegate: SliverChildBuilderDelegate(
+                    (BuildContext context, int index) {
+                  // Generate a random color
+                  final Color randomColor = Color.fromRGBO(
+                    random.nextInt(256),
+                    random.nextInt(256),
+                    random.nextInt(256),
+                    1,
+                  );
 
-                // Return a container with custom content for each grid item
-                return Container(
-                  alignment: Alignment.center,
-                  color: randomColor, // Use the randomly generated color
-                  // Display the index number of the grid item
-                  child: Text(
-                    'Item ${index+1}',
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                  // Return a container with custom content for each grid item
+                  return Container(
+                    alignment: Alignment.center,
+                    color: randomColor, // Use the randomly generated color
+                    // Display the index number of the grid item
+                    child: Text(
+                      'Item ${index+1}',
+                      style: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
                     ),
-                  ),
-                );
-              },
-              childCount: 50, // Total number of grid items
+                  );
+                },
+                childCount: 50, // Total number of grid items
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

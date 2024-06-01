@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 class SizeBoxExplain extends StatelessWidget {
   const SizeBoxExplain({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         appBar: AppBar(
           title: const Text('SizedBox Example'),

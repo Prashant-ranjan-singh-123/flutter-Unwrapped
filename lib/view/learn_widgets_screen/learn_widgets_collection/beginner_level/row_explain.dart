@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 /// A simple stateless widget that displays a row of widgets with 
 /// evenly spaced main axis alignment.
 /// 
@@ -10,8 +12,7 @@ class RowExplain extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
           appBar: AppBar(
             title: const Text('Row Example'),
@@ -20,7 +21,7 @@ class RowExplain extends StatelessWidget {
         // Scaffold provides a structure for the visual interface, including
         // an optional app bar, drawer, and a body.
         // backgroundColor: Theme.of(context).colorScheme.secondary.withOpacity(0.5),
-
+      
         /// The body of the Scaffold is a padded [Row] with four children
         /// evenly spaced along the main axis.
         body: Padding(
@@ -34,16 +35,16 @@ class RowExplain extends StatelessWidget {
             children: [
               // First container widget in the row.
               Container(color: Colors.red, height: double.infinity, width: 40,),
-
+      
               // Second container widget in the row.
               Container(color: Colors.green, height: double.infinity, width: 40,),
-
+      
               // Third container widget in the row.
               Container(color: Colors.yellow, height: double.infinity, width: 40,),
-
+      
               // Fourth container widget in the row.
               Container(color: Colors.white, height: double.infinity, width: 40,),
-
+      
               // Fifth container widget in the row.
               Container(color: Colors.deepOrangeAccent, height: double.infinity, width: 40,),
             ],

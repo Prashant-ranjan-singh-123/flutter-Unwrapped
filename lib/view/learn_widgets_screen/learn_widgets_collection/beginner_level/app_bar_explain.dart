@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterunwrapped/frequent_used_widget/custom_phone_layout.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 class AppBarWidget extends StatelessWidget {
@@ -6,8 +7,7 @@ class AppBarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         backgroundColor: HexColor('#011f4b').withOpacity(0.5),
         //Appbar

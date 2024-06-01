@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 /// A simple stateless widget that displays a column of widgets with
 /// evenly spaced main axis alignment.
 ///
@@ -10,8 +12,7 @@ class ColumnExplain extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Column Example'),
@@ -20,7 +21,7 @@ class ColumnExplain extends StatelessWidget {
         // Scaffold provides a structure for the visual interface, including
         // an optional app bar, drawer, and a body.
         // backgroundColor: Theme.of(context).colorScheme.secondary.withOpacity(0.5),
-
+      
         /// The body of the Scaffold is a padded [Column] with four children
         /// evenly spaced along the main axis.
         body: Column(
@@ -31,13 +32,13 @@ class ColumnExplain extends StatelessWidget {
           children: [
             // First text widget in the column.
             const Center(child: Text('First item in the column')),
-
+      
             // Second text widget in the column.
             const Text('Second item in the column'),
-
+      
             // An image asset included in the column.
             Image.asset('assets/images/dart_logo.png'),
-
+      
             // Fourth text widget in the column.
             const Text('Fourth item in the column'),
           ],

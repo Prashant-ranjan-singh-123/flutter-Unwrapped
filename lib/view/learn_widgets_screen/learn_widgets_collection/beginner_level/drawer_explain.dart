@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 /// A stateful widget that demonstrates the use of a [Drawer] in Flutter.
 /// This widget includes an app bar, a drawer with user account information,
 /// and various navigation options.
@@ -15,8 +17,7 @@ class DrawerExplain extends StatefulWidget {
 class _DrawerExplainState extends State<DrawerExplain> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Drawer Demo'),
@@ -38,7 +39,7 @@ class _DrawerExplainState extends State<DrawerExplain> {
                         color: Colors.black, fontWeight: FontWeight.w900),
                   ),
                   accountEmail: Text(
-                    'prashantsingh12309856@gmail.com',
+                    'prashantxyz173@gmail.com',
                     style: TextStyle(
                         color: Colors.black, fontWeight: FontWeight.w500),
                   ),

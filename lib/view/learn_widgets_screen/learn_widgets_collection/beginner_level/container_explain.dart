@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 
+import '../../../../frequent_used_widget/custom_phone_layout.dart';
+
 class ContainerExplain extends StatelessWidget {
   const ContainerExplain({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(15.0),
+    return CustomPhoneLayout(
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Container Example'),
@@ -54,9 +55,6 @@ class ContainerExplain extends StatelessWidget {
 
             // The transformation matrix to apply before painting the container.
             transform: Matrix4.rotationZ(0.1),
-
-            // The constraints to apply to the child.
-            constraints: const BoxConstraints.expand(),
 
             // Whether the container should clip its contents to its bounds.
             clipBehavior: Clip.none,
