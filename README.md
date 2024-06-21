@@ -4,7 +4,7 @@
 
 </div>
 
-<h1 align="center">Flutter Unwrapped</h1>
+<h2 align="center">Flutter Unwrapped</h2>
 
 <p align="center">
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-a503fc?logo=kotlin&logoColor=white&style=for-the-badge"/></a>
