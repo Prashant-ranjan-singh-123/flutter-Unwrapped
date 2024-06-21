@@ -56,6 +56,8 @@
 - Landscape Mode Supported 🌄
 - Responsive UI 📱
 
+<br>
+
 ## Building from Source
 
 1. If you don't have Flutter SDK installed, please visit official [Flutter](https://flutter.dev/) site.
