@@ -53,6 +53,7 @@
 * Smooth user experience
 * Smooth Animations
 * Responsive Layouts
+</br>
 
 ## Building from Source
 
