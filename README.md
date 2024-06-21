@@ -41,34 +41,20 @@
 <a href="https://apt.izzysoft.de/fdroid/index/apk/ru.aleshin.timeplanner" target="_blank">
 
 ## What you get by this app
-* Install Flutter Guide
-* Flutter Interview Questions
-* Flutter & Dart Concepts
-* Writing First Flutter Application
-* Widgets explain with UI
-* Explore UIs (Open-Source)
-</br>
-
-[//]: # (## Feature 📱)
-
-[//]: # (* Material & Clean design)
-
-[//]: # (* Smooth user experience)
-
-[//]: # (* Smooth Animations)
-
-[//]: # (* Responsive Layouts)
-
-[//]: # (</br>)
+* Install Flutter Guide 📘
+* Flutter Interview Questions ❓
+* Flutter & Dart Concepts 📚
+* Writing First Flutter Application 🖋️
+* Widgets explain with UI 🎨
+* Explore UIs (Open-Source) 🌐
 
 ## Technologies stack 🚀
-- Getx State Management
-- Clean Architecture
-- Use of Flutter Animations package.
-- Ios and Android Compatable
-- Landscape Mode Supported
-- Responsive UI
-</br>
+- GetX State Management 💼
+- Clean Architecture 🏛️
+- Use of Flutter Animations package 🎬
+- iOS and Android Compatible 📱
+- Landscape Mode Supported 🌄
+- Responsive UI 📱
 
 ## Building from Source
 
