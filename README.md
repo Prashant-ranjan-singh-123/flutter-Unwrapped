@@ -6,7 +6,7 @@
 
 <h1 align="center">Flutter Unwrapped</h1>
 <h3 align="center">------Mastering the Art------</h3>
-<h5 align="left">Flutter Unwrapped unlocks the world of Flutter development on your mobile device. This comprehensive app empowers you to learn the fundamentals, build practical skills, and prepare for your Flutter developer journey.  From streamlined installation to free UI kits, Flutter Unwrapped equips you for success. </h5>
+<p style="text-align: left; font-weight: normal;">Flutter Unwrapped unlocks the world of Flutter development on your mobile device. This comprehensive app empowers you to learn the fundamentals, build practical skills, and prepare for your Flutter developer journey. From streamlined installation to free UI kits, Flutter Unwrapped equips you for success.</p>
 
 
 <img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/preview.png"/>
