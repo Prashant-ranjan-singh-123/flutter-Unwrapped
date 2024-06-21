@@ -1,6 +1,6 @@
 <div align="center">
 </br>
-<img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/screen_1.png?raw=true" width="200" />
+<img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/assets/images/logo_no_bg.png" width="200" />
 
 </div>
 
@@ -11,7 +11,7 @@
 
 <div align="center">
 </br>
-<img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/Priority-list-task/main/readme/priview.png"/>
+<img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/priview.png?raw=true"/>
 
 </div>
 
