@@ -87,6 +87,7 @@ flutter pub get
 flutter run
 ```
 
+<br>
 
 ## Some Screens 📸
 <table>
