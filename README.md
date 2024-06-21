@@ -78,7 +78,7 @@ flutter pub get
 flutter run
 ```
 
-</<br>>
+</br>
 ## Technologies stack 🚀
 - Getx State Management
 - Clean Architecture
@@ -87,7 +87,7 @@ flutter run
 - Landscape Mode Supported
 - Responsive UI
 
-</<br>>
+</br>
 
 ## Some Screens 📸
 <table>
