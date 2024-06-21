@@ -14,7 +14,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/actions"><img src="https://tokei.rs/b1/github/Prashant-ranjan-singh-123/flutter-Unwrapped?category=code&color=purple&include_prereleases&logo=github&style=for-the-badge"/></a>
   <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/releases"><img src="https://img.shields.io/github/v/release/Prashant-ranjan-singh-123/flutter-Unwrapped?color=purple&include_prereleases&logo=github&style=for-the-badge"/></a>
   <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/stargazers"><img src="https://img.shields.io/github/stars/Prashant-ranjan-singh-123/flutter-Unwrapped?color=ffff00&style=for-the-badge"/></a>
   <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/network/members"><img src="https://img.shields.io/github/forks/Prashant-ranjan-singh-123/flutter-Unwrapped?style=for-the-badge"/></a>
