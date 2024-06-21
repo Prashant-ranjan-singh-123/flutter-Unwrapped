@@ -56,6 +56,15 @@
 * Responsive Layouts
 </br>
 
+## Technologies stack 🚀
+- Getx State Management
+- Clean Architecture
+- Use of Flutter Animations package.
+- Ios and Android Compatable
+- Landscape Mode Supported
+- Responsive UI
+</br>
+
 ## Building from Source
 
 1. If you don't have Flutter SDK installed, please visit official [Flutter](https://flutter.dev/) site.
@@ -78,17 +87,6 @@ flutter pub get
 flutter run
 ```
 
-</br>
-
-## Technologies stack 🚀
-- Getx State Management
-- Clean Architecture
-- Use of Flutter Animations package.
-- Ios and Android Compatable
-- Landscape Mode Supported
-- Responsive UI
-
-</br>
 
 ## Some Screens 📸
 <table>
