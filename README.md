@@ -89,6 +89,22 @@ flutter run
 
 <br>
 
+## TODO
+
+- [ ] Suggest Some app name and some 1 liner description
+- [ ] Add Native Splash Screen
+- [ ] Choice Best Icons From any package.
+- [ ] Figma Designer: UI Redesign share.
+- [ ] Make Bubble Static for Splash Screen 
+- [ ] Change Bottom Nav Bar Flashy Bottom Nav
+- [ ] Redesign UI for Home Screen
+- [ ] Redesign UI for Widgets Screen
+- [ ] Redesign UI for Beginner Level Widget.
+- [ ] Construct ui kit Page
+- [ ] Comment Some repo with flutter UI to add.
+
+<br>
+
 ## Some Screens 📸
 <table>
   <tr>
