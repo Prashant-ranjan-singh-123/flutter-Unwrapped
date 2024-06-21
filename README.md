@@ -26,7 +26,7 @@
   <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/Prashant-ranjan-singh-123/flutter-Unwrapped?style=for-the-badge&color=ccdd56"/></a>
 </p>
 
-</div>
+</br>
 
 <p style="text-align: left; font-weight: normal;">Flutter Unwrapped unlocks the world of Flutter development on your mobile device. This comprehensive app empowers you to learn the fundamentals, build practical skills, and prepare for your Flutter developer journey. From streamlined installation to free UI kits, Flutter Unwrapped equips you for success.</p>
 
