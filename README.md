@@ -79,6 +79,7 @@ flutter run
 ```
 
 </br>
+
 ## Technologies stack 🚀
 - Getx State Management
 - Clean Architecture
