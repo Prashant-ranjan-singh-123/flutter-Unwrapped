@@ -40,9 +40,8 @@
 ## Some Screens 📸
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/1.png" width="32%"></td>
-    <td><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/10.png" width="32%"></td>
-    <td><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/3.png" width="32%"></td>
+    <td><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/splash.png" width="499dp"></td>
+    <td><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/1.png" width="499dp"></td>
  </table>
 
 ## Section 📸
