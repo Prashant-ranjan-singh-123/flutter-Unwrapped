@@ -49,12 +49,17 @@
 * Explore UIs (Open-Source)
 </br>
 
-## Feature 📱
-* Material & Clean design
-* Smooth user experience
-* Smooth Animations
-* Responsive Layouts
-</br>
+[//]: # (## Feature 📱)
+
+[//]: # (* Material & Clean design)
+
+[//]: # (* Smooth user experience)
+
+[//]: # (* Smooth Animations)
+
+[//]: # (* Responsive Layouts)
+
+[//]: # (</br>)
 
 ## Technologies stack 🚀
 - Getx State Management
