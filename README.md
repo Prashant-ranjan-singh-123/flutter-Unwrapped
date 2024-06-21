@@ -144,8 +144,6 @@ SOFTWARE.
   <img src='https://contrib.rocks/image?repo=Prashant-ranjan-singh-123/flutter-Unwrapped' />
 </a>
 
-<br>
-
 ## 🙋 Support From Developer
 
 - **Email:** [prashant.singh.12312345@gmail.com](https://mail.google.com/mail/u/?authuser=prashant.singh.12312345@gmail.com)
