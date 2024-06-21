@@ -8,24 +8,25 @@
 
 
 <p align="center">
-  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-a503fc?logo=kotlin&logoColor=white&style=for-the-badge"/>
-  <img alt="API" src="https://img.shields.io/badge/Api%2024+-50f270?logo=android&logoColor=black&style=for-the-badge"/>
-  <img alt="material" src="https://custom-icon-badges.demolab.com/badge/material%20you-lightblue?style=for-the-badge&logoColor=333&logo=material-you"/>
+  <img alt="Flutter Unwrapped" src="https://img.shields.io/badge/Flutter%20Unwrapped-00d1a7?style=for-the-badge&logo=flutter&logoColor=white"/>
+  <img alt="API" src="https://img.shields.io/badge/Api%2024+-50f270?style=for-the-badge&logo=android&logoColor=black"/>
+  <img alt="Material You" src="https://custom-icon-badges.demolab.com/badge/material%20you-lightblue?style=for-the-badge&logo=material-you&logoColor=333"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/v1tzor/TimePlanner/actions"><img src="https://tokei.rs/b1/github/v1tzor/timeplanner?category=code&color=purple&include_prereleases&logo=github&style=for-the-badge"/></a>
-  <a href="https://github.com/v1tzor/TimePlanner/releases"><img src="https://img.shields.io/github/v/release/v1tzor/timeplanner?color=purple&include_prereleases&logo=github&style=for-the-badge"/></a>
-  <a href="https://github.com/v1tzor/TimePlanner/stargazers"><img src="https://img.shields.io/github/stars/v1tzor/timeplanner?color=ffff00&style=for-the-badge"/></a>
-  <a href="https://github.com/v1tzor/TimePlanner/network/members"><img src="https://img.shields.io/github/forks/v1tzor/TimePlanner?style=for-the-badge"/></a>
-  <a href="https://hits.sh/github.com/v1tzor/TimePlanner/"><img alt="Hits" src="https://hits.sh/github.com/v1tzor/timeplanner.svg?style=for-the-badge&label=Views&extraCount=10&color=54856b"/></a>
+  <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/actions"><img src="https://tokei.rs/b1/github/Prashant-ranjan-singh-123/flutter-Unwrapped?category=code&color=purple&include_prereleases&logo=github&style=for-the-badge"/></a>
+  <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/releases"><img src="https://img.shields.io/github/v/release/Prashant-ranjan-singh-123/flutter-Unwrapped?color=purple&include_prereleases&logo=github&style=for-the-badge"/></a>
+  <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/stargazers"><img src="https://img.shields.io/github/stars/Prashant-ranjan-singh-123/flutter-Unwrapped?color=ffff00&style=for-the-badge"/></a>
+  <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/network/members"><img src="https://img.shields.io/github/forks/Prashant-ranjan-singh-123/flutter-Unwrapped?style=for-the-badge"/></a>
+  <a href="https://hits.sh/github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/"><img alt="Hits" src="https://hits.sh/github.com/Prashant-ranjan-singh-123/flutter-Unwrapped.svg?style=for-the-badge&label=Views&extraCount=10&color=54856b"/></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/v1tzor/TimePlanner/releases"><img src="https://img.shields.io/github/downloads/v1tzor/timeplanner/total?color=orange&style=for-the-badge"/></a>
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/v1tzor/timeplanner?style=for-the-badge&color=ggff20">
-  <a href="https://github.com/v1tzor/TimePlanner/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/v1tzor/TimePlanner?style=for-the-badge&color=ccdd56"/></a>
+  <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/releases"><img src="https://img.shields.io/github/downloads/Prashant-ranjan-singh-123/flutter-Unwrapped/total?color=orange&style=for-the-badge"/></a>
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Prashant-ranjan-singh-123/flutter-Unwrapped?style=for-the-badge&color=ggff20">
+  <a href="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/Prashant-ranjan-singh-123/flutter-Unwrapped?style=for-the-badge&color=ccdd56"/></a>
 </p>
+
 
 
 <p style="text-align: left; font-weight: normal;">Flutter Unwrapped unlocks the world of Flutter development on your mobile device. This comprehensive app empowers you to learn the fundamentals, build practical skills, and prepare for your Flutter developer journey. From streamlined installation to free UI kits, Flutter Unwrapped equips you for success.</p>
