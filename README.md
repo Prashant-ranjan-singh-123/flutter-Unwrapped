@@ -4,7 +4,9 @@
 
 </div>
 
-<h1 align="center">Flutter Unwrapped: Mastering the Art </h1>
+<h1 align="center">Flutter Unwrapped</h1>
+<h3 align="center">Mastering the Art</h3>
+
 <h5 align="left">Flutter Unwrapped unlocks the world of Flutter development on your mobile device. This comprehensive app empowers you to learn the fundamentals, build practical skills, and prepare for your Flutter developer journey.  From streamlined installation to free UI kits, Flutter Unwrapped equips you for success. </h5>
 
 </br>
