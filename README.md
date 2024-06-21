@@ -41,9 +41,9 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/screen_1.png?raw=true" align="left" width="350dp"></td>
-    <td valign="top"><img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/screen_2.png?raw=true" align="center" width="350dp"></td>
-    <td valign="top"><img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/screen_3.png?raw=true" align="right" width="350dp"></td>
+    <td valign="top"><img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/onboard_1.jpg?raw=true" align="left" width="350dp"></td>
+    <td valign="top"><img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/onboard_2.jpg?raw=true" align="center" width="350dp"></td>
+    <td valign="top"><img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/onboard_3.jpg?raw=true" align="right" width="350dp"></td>
   </tr>
     <tr>
     <td valign="top"><img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/screen_4.png?raw=true" align="left" width="350dp"></td>

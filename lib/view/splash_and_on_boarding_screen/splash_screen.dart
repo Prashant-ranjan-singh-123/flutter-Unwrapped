@@ -5,9 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';
-
 import '../../test.dart';
-import '../learn_widgets_screen/widget_expand/tabs_switcher.dart';
 import 'check_first_time.dart';
 
 class SplashScreen extends StatefulWidget {
