@@ -40,9 +40,9 @@
 ## Onboard 📸
 <table>
   <tr>
-    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/1.png" align="left" width="350dp"></td>
-    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/2.png" align="center" width="350dp"></td>
-    <td valign="top"><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/3.png" align="right" width="350dp"></td>
+    <td><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/1.png" width="32%"></td>
+    <td><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/2.png" width="32%"></td>
+    <td><img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/3.png" width="32%"></td>
  </table>
 
 ## Section 📸
