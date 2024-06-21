@@ -11,7 +11,7 @@
 
 <div align="center">
 </br>
-<img src="https://github.com/Prashant-ranjan-singh-123/flutter-Unwrapped/blob/master/readme_image/priview.png?raw=true"/>
+<img src="https://raw.githubusercontent.com/Prashant-ranjan-singh-123/flutter-Unwrapped/master/readme_image/preview.png"/>
 
 </div>
 
